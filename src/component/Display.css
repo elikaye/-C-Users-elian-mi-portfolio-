@@ -1,0 +1,12 @@
+.component-display {
+    background: rgb(194, 192, 192);
+    color: rgb(236, 243, 243);
+    text-align: center;
+    padding: 15px 10px;
+    width: 100%;
+}
+
+.component-display > div {
+    font-size: 3em;
+    font-weight: bold;
+}

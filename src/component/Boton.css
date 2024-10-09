@@ -1,0 +1,53 @@
+.component-button {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+.component-button.wide {
+    width: 50%;
+}
+
+.component-button button {
+    background: #e0e0e0;
+    border: 0;
+    font-size: 2em;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+}
+
+.component-button.aqua button {
+    background: rgb(152, 228, 233);
+    color: #ccc;
+}
+
+.component-button.aqua button:hover {
+    background:  rgb(236, 169, 236);
+}
+
+.component-button.pink button {
+    background: rgb(243, 197, 243);
+    color: #fff;
+
+}
+
+
+.component-button.pink button:hover {
+    background: rgb(150, 243, 228);
+}
+
+.component-button.gray button {
+    background: rgba(207, 208, 209, 0.911);
+    color: #fff;
+
+}
+
+
+.component-button.gray button:hover {
+    background: rgb(245, 192, 238);
+}
